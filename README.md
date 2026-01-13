@@ -1,0 +1,1 @@
+# contao-collection-widget
