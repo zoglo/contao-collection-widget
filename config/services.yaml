@@ -1,0 +1,9 @@
+services:
+    _defaults:
+        autoconfigure: true
+
+    zoglo_collection_widget.listener.add_assets:
+        class: Zoglo\CollectionWidgetBundle\EventListener\BackendAssetsListener
+        arguments:
+            - '@contao.routing.scope_matcher'
+            - '@assets.packages'
