@@ -25,8 +25,7 @@
         "symfony/event-dispatcher": "^7.4 || ^8.1"
     },
     "require-dev": {
-        "contao/manager-plugin": "^2.0",
-        "shipmonk/composer-dependency-analyser": "^1.8"
+        "contao/manager-plugin": "^2.0"
     },
     "conflict": {
         "contao/manager-plugin": "<2.0 || >=3.0"
@@ -35,9 +34,6 @@
         "psr-4": {
             "Zoglo\\CollectionWidgetBundle\\": "src/"
         }
-    },
-    "scripts": {
-        "depcheck": "@php vendor/bin/composer-dependency-analyser --config=depcheck.php"
     },
     "extra": {
         "contao-manager-plugin": "Zoglo\\CollectionWidgetBundle\\ContaoManager\\Plugin"
